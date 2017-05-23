@@ -1,0 +1,47 @@
+
+input,
+textarea,
+button{
+  font-family: Helvetica, Arial;
+  font-size: 0.75rem;
+  border: none;
+  background-color: #fff;
+  padding: .25em .5em;
+  line-height: 1.4;
+  min-width: 13em;
+  box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus,
+button:focus{
+  outline: none;
+}
+
+hr{
+  border: none;
+  font-size: 0.75rem;
+  margin: .5em 0;
+}
+
+button{
+  box-shadow: inset 0px -1px 1px rgba(0, 0, 0, 0.25);
+}
+
+button:active{
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+form{
+  font-size: 0;
+}
+
+form input:valid,
+form textarea:valid{
+  box-shadow: inset 0px -1px 1px rgba(0, 0, 255, 0.25);
+}
+
+form input:invalid,
+form textarea:invalid{
+  box-shadow: inset 0px -1px 1px rgba(255, 0, 0, 0.25);
+}
