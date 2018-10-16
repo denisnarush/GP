@@ -1,16 +1,31 @@
 <form name="access">
   <label>
     <span>Login</span>
-    <input type="text" name="username" placeholder="username or e-mail" required>
+    <input type="text"
+           title="Login field"
+           placeholder="username or e-mail"
+           name="username"
+           required>
   </label>
 
   <label>
     <span>Password</span>
-    <input type="password" name="userpassword" placeholder="secret phrase up to 32 chars" required  maxlength="32">
+    <input type="password"
+           title="Password field"
+           placeholder="secret phrase up to 32 chars"
+           name="userpassword"
+           maxlength="32"
+           required>
   </label>
 
   <footer>
-    <button type="submit" formmethod="post" formaction="/signup">Sign up</button>
-    <button type="submit" formmethod="get" formaction="/login">Log in</button>
+    <button type="submit"
+            formmethod="post"
+            title="Sign up"
+            formaction="/signup">Sign up</button>
+    <button type="submit"
+            title="Log in"
+            formmethod="get"
+            formaction="/login">Log in</button>
   </footer>
 </form>
