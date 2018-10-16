@@ -1,6 +1,12 @@
 <form name="access">
-  <input type="text" name="username" placeholder="username" required>
-  <input type="password" name="userpassword" placeholder="password" required  maxlength="32">
+  <label>
+    <span>Login</span>
+    <input type="text" name="username" placeholder="username" required>
+  </label>
+   <label>
+    <span>password</span>
+    <input type="password" name="userpassword" placeholder="password" required  maxlength="32">
+  </label>
   <hr>
   <button type="submit" formmethod="post" formaction="/signup">Sign up</button>
   <button type="submit" formmethod="get" formaction="/login">Log in</button>
